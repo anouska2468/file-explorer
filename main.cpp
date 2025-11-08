@@ -1,13 +1,3 @@
-/*
--------------------------------------------------------
- File Explorer Application (C++)
- Author: Anouska Rout
- Description:
-   Console-based file explorer using Linux system calls.
-   Features: list files, show details (permissions, size, mtime),
-             create/delete files, change directory, recursive search.
--------------------------------------------------------
-*/
 #include <iostream>
 #include <dirent.h>    // opendir, readdir, closedir
 #include <sys/stat.h>  // stat, struct stat
